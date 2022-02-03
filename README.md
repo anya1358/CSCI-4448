@@ -1,4 +1,4 @@
-# Project Team Members
+# Team Members
 
 Andrew Yamane
 
