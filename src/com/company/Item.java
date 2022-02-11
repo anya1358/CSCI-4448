@@ -1,29 +1,50 @@
 package com.company;
 
+//super class
 public class Item {
+
+    //super class constructor
     Item(String name, double purchasePrice, int newOrUsed, int dayArrived, int condition){
         name_ = name;
         purchasePrice_ = purchasePrice;
-        listPrice_ = 2 * purchasePrice;
+        listPrice_ = 2 * purchasePrice; //list price is automatically 2 times the purchase price
         newOrUsed_ = newOrUsed;
         dayArrived_ = dayArrived;
         condition_ = condition;
         setString_condition_(condition);
+        setNew_or_used_string_(newOrUsed_);
     }
-    private String name_;
+    //private variables
+    private final String name_;
     private double purchasePrice_;
     private double listPrice_;
-    private int newOrUsed_;
-    private int dayArrived_;
+    private final int newOrUsed_;
+    private final int dayArrived_;
     private int condition_;
     private double salePrice_;
     private int daySold_;
     private int item_type_id;
 
+    public String getNew_or_used_string_() {
+        return new_or_used_string_;
+    }
+
+    public void setNew_or_used_string_(int new_or_used) {
+        if(new_or_used == 1){
+            this.new_or_used_string_ = "new";
+        }
+        else{
+            this.new_or_used_string_ = "used";
+        }
+    }
+
+    private String new_or_used_string_;
+
     public String getString_condition_() {
         return string_condition_;
     }
 
+    //this function takes the numbered condition and converts it to a string
     public void setString_condition_(int condition) {
         this.string_condition_ = switch (condition) {
             case 1 -> "poor";
@@ -37,17 +58,14 @@ public class Item {
 
     private String string_condition_;
 
+    //function that handles when an item is broke by a staff member cleaning the store
     public void ItemBroke(){
         this.condition_--;
         setString_condition_(this.condition_);
-        this.listPrice_ -= 0.2 * this.listPrice_;
+        this.listPrice_ -= 0.2 * this.listPrice_; //list price decrements by 20%
     }
     public String getName_() {
         return name_;
-    }
-
-    public void setName_(String name_) {
-        this.name_ = name_;
     }
 
     public double getPurchasePrice_() {
@@ -63,32 +81,16 @@ public class Item {
         return listPrice_;
     }
 
-    public void setListPrice_(double listPrice_) {
-        this.listPrice_ = listPrice_;
-    }
-
     public int isNewOrUsed_() {
         return newOrUsed_;
-    }
-
-    public void setNewOrUsed_(int newOrUsed_) {
-        this.newOrUsed_ = newOrUsed_;
     }
 
     public int getDayArrived_() {
         return dayArrived_;
     }
 
-    public void setDayArrived_(int dayArrived_) {
-        this.dayArrived_ = dayArrived_;
-    }
-
     public int getCondition_() {
         return condition_;
-    }
-
-    public void setCondition_(int condition_) {
-        this.condition_ = condition_;
     }
 
     public double getSalePrice_() {

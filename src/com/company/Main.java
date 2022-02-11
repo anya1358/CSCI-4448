@@ -1,16 +1,12 @@
 package com.company;
 
 import java.util.*;
-//There are three of each lowest subclass of merchandise items (3 CDs, 3 Shirts, 3 Guitars, etc.) in the store
-//at the start of the simulation. Determine a name (any way you choose) and a purchase price ($1 to $50) per
-//item. The list price will be set to 2 x the purchase price for each item. The attribute dayArrived should be set to
-//0 for the initial item set. Condition has five levels: poor, fair, good, very good, or excellent. The attributes
-//salePrice and daySold will be set when the item is sold.
-// Superclass
+/*
+Changes from problem 1 to problem 2 in UML diagram and the changes are spelled out on the diagram there as well
+ */
 
 // Subclass of Item
 class Players extends Item {
-
     Players(String name, double purchasePrice, int newOrUsed, int dayArrived, int condition) {
         super(name, purchasePrice, newOrUsed, dayArrived, condition);
     }
@@ -18,10 +14,12 @@ class Players extends Item {
 
 // Subclass of Players
 class MP3 extends Players {
-    public static int count = 0;
+    public static int count = 0; //statics variable to count how many MP3 players there are
     MP3(String name, double purchasePrice, int newOrUsed, int dayArrived, int condition) {
         super(name, purchasePrice, newOrUsed, dayArrived, condition);
+        //set the item type id
         setItem_type_id(0);
+        //increment count
         count++;
     }
 }
@@ -300,6 +298,7 @@ class PracticeAmps extends Accessories {
     }
 }
 
+//this class is just responsible for holding the amount of money in the cash register
 class CashRegister {
     public static double money_ = 0;
 }
@@ -311,27 +310,19 @@ class Customer {
         return customer_id_;
     }
 
-    public void setCustomer_id_(int customer_id_) {
-        this.customer_id_ = customer_id_;
-    }
-
-    private int customer_id_;
+    private final int customer_id_;
 
     public boolean isSelling_or_buying_() {
         return selling_or_buying_;
     }
 
-    private boolean selling_or_buying_;
+    private final boolean selling_or_buying_;
 
     public int getItem_subclass_() {
         return item_subclass_;
     }
 
-    public void setItem_subclass_(int item_subclass_) {
-        this.item_subclass_ = item_subclass_;
-    }
-
-    private int item_subclass_;
+    private final int item_subclass_;
     private Item item_to_sell;
     private int arrival_day_;
 
@@ -344,36 +335,10 @@ class Customer {
         arrival_day_ = arrival_day;
     }
 
-
-
-
-    // void ArriveAtStore() {
-    //
-    // }
-
-    // void LeaveStore() {
-    //
-    // }
-
-    // void PayClerk() {
-    //
-    // }
-
-    // void BuyItem() {
-    //
-    // }
-
-    // Vector<Item> GetItemsToBuy() {
-    //
-    // }
-
-    // Vector<Item> GetItemsToSell() {
-    //
-    // }
 }
 
 class Staff {
-    private String name_;
+    private final String name_;
     private int consecutive_work_days_;
     private String type_;
     Staff(String name, String type){
@@ -386,10 +351,6 @@ class Staff {
         return name_;
     }
 
-    public void setName_(String name) {
-        this.name_ = name;
-    }
-
     public int getConsecutive_work_days_() {
         return consecutive_work_days_;
     }
@@ -398,16 +359,22 @@ class Staff {
         this.consecutive_work_days_ = consecutive_work_days;
     }
 
-    public String getType_() {
-        return type_;
-    }
-
-    public void setType_(String type_) {
-        this.type_ = type_;
-    }
-
-    public void ArriveAtStore(int day_arrived) {
+    public void ArriveAtStore(int day_arrived, ArrayList<Item> items_waiting, Map<Integer, ArrayList<Item>> inventory) {
         System.out.println(name_ + " arrives at the store on Day " + day_arrived + ".");
+        System.out.println(name_ + " is checking for ordered items...");
+        //have the daily clerk go through the items waiting and see if they need to be added to the inventory/if they have arrived
+        for(int j = 0; j < items_waiting.size(); j++){
+            //first get the day the item is supposed to arrive and compare it to today
+            Item current_item_waiting = items_waiting.get(j);
+            if(current_item_waiting.getDayArrived_() == day_arrived){
+                //then we add it to the map corresponding to the item type id
+                inventory.get(current_item_waiting.getItem_type_id()).add(current_item_waiting);
+                //then remove it from the items waiting ArrayList
+                items_waiting.remove(current_item_waiting);
+                //log the item that was added to the inventory
+                System.out.println(name_ + " added the waiting item " + current_item_waiting.getName_() + " to the inventory.");
+            }
+        }
     }
 
     public void LeaveStore(int day) {
@@ -417,9 +384,6 @@ class Staff {
 
 // Subclass of Staff
 class Clerk extends Staff {
-    public int getBreak_prob_() {
-        return break_prob_;
-    }
 
     private final int break_prob_;
     Clerk(String name, String type, int break_prob) {
@@ -456,7 +420,6 @@ class Clerk extends Staff {
         //basically just order 3 of whatever item is passed with random purchase price
         //purchase price is payed for by removing money from the cash register
         //items should arrive in the next 1 to 3 days
-        //print out what we are doing
         Random r = new Random();
         ArrayList<Item> items_ordered = new ArrayList<>();
         Item item1;
@@ -553,17 +516,20 @@ class Clerk extends Staff {
                     item3 = new PracticeAmps("Practice Amp " + PracticeAmps.count, r.nextInt(50) + 1, 1, rand_arrival_day, r.nextInt(5) + 1, 50);
                 }
             }
+            //add the items to the items we have ordered
             items_ordered.add(item1);
             items_ordered.add(item2);
             items_ordered.add(item3);
             System.out.println(super.getName_() + " placed an order for the following items: " + item1.getName_() + ", " + item2.getName_() + ", " + item3.getName_() + ".");
+            //take money out of the register to pay for these items ordered
             CashRegister.money_ -= item1.getPurchasePrice_();
             CashRegister.money_ -= item2.getPurchasePrice_();
             CashRegister.money_ -= item3.getPurchasePrice_();
         }
         return items_ordered;
     }
-    public ArrayList<Item> OpenTheStore(ArrayList<Customer> customers, Map<Integer, ArrayList<Item>> inventory, int curr_day){
+    public ArrayList<Item> OpenTheStore(ArrayList<Customer> customers, Map<Integer, ArrayList<Item>> inventory, int curr_day, ArrayList<String> id_to_name){
+        System.out.println(getName_() + " has opened the store on day " + curr_day + "!");
         //respond to the arriving customers
         //want to have random customers arrive
         ArrayList<Item> items_sold = new ArrayList<>();
@@ -575,11 +541,11 @@ class Clerk extends Staff {
             //we then need to check if this customer wants to buy or sell and handle those situations as need be
             int item_subclass = curr_customer.getItem_subclass_();
             if(curr_customer.isSelling_or_buying_()){ //buying
-                System.out.println("Customer " + curr_customer.getCustomer_id_() + " is looking to buy an item with subclass number " + item_subclass + ".");
+                System.out.println("Customer " + curr_customer.getCustomer_id_() + " is looking to buy a " + id_to_name.get(item_subclass) + ".");
                 ArrayList<Item> subclass_inventory = inventory.get(item_subclass);
                 if(subclass_inventory.size() == 0){
                     //the customer leaves the store
-                    System.out.println("There were not items of subclass " + item_subclass + " available in the store, Customer " + curr_customer.getCustomer_id_() + " left the store.");
+                    System.out.println("There were no " + id_to_name.get(item_subclass) + " available in the store, Customer " + curr_customer.getCustomer_id_() + " left the store.");
                 }
                 else{
                     //run through logic of customer bargaining with the clerk
@@ -634,7 +600,7 @@ class Clerk extends Staff {
                     //add the item to the inventory
                     inventory.get(item_subclass).add(item_to_sell);
                     //then announce what happened
-                    System.out.println(super.getName_() + " bought " + item_to_sell.getName_() + " in " + item_to_sell.getString_condition_() + " condition from Customer " + curr_customer.getCustomer_id_() + " for $" + offer + ".");
+                    System.out.println(super.getName_() + " bought a " + item_to_sell.getNew_or_used_string_() + " " + item_to_sell.getName_() + " in " + item_to_sell.getString_condition_() + " condition from Customer " + curr_customer.getCustomer_id_() + " for $" + offer + ".");
                 }
                 else{
                     //then wager
@@ -647,7 +613,7 @@ class Clerk extends Staff {
                         item_to_sell.setPurchasePrice_(offer);
                         inventory.get(item_subclass).add(item_to_sell);
                         //then announce what happened
-                        System.out.println(super.getName_() + " bought " + item_to_sell.getName_() + " in " + item_to_sell.getString_condition_() + " condition from Customer " + curr_customer.getCustomer_id_() + " for $" + offer + " for a 10% increase from the initial offer.");
+                        System.out.println(super.getName_() + " bought a " + item_to_sell.getNew_or_used_string_() + " " + item_to_sell.getName_() + " in " + item_to_sell.getString_condition_() + " condition from Customer " + curr_customer.getCustomer_id_() + " for $" + offer + " for a 10% increase from the initial offer.");
                     }
                     else{
                         //the customer did not want to sell the item and left the store
@@ -655,6 +621,7 @@ class Clerk extends Staff {
                     }
                 }
             }
+            //remove the customer from the customer
             customers.remove(curr_customer);
         }
         return items_sold;
@@ -675,6 +642,7 @@ class Clerk extends Staff {
             case 5 -> r.nextInt(10) + 40;
             default -> 0;
         };
+        //match the subclass to the item the user will add
         switch (id) {
             case 0 -> item = new MP3("MP3 " + MP3.count, purchase_price, new_or_used, arrival_day, condition);
             case 1 -> item = new CD_P("CD Player " + CD_P.count, purchase_price, new_or_used, arrival_day, condition);
@@ -703,8 +671,11 @@ class Clerk extends Staff {
             //something gets broken by the cleaning clerk
             //need a random type first
             int rand_subclass = r.nextInt(17);
+            while(inventory.get(rand_subclass).size() == 0){
+                rand_subclass = r.nextInt(17);
+            }
             int rand_item_index = r.nextInt(inventory.get(rand_subclass).size());
-            Item item_to_be_broken = inventory.get(rand_subclass).get(r.nextInt(rand_item_index));
+            Item item_to_be_broken = inventory.get(rand_subclass).get(rand_item_index);
             if(item_to_be_broken.getCondition_() == 1){
                 //remove the item
                 System.out.println(getName_() + " broke a poor condition item " + item_to_be_broken.getName_() + ", therefore this item has been removed from the store.");
@@ -726,25 +697,40 @@ class Clerk extends Staff {
 }
 
 class Store {
-    private String name;
     private double money_withdrawn_;
     private final ArrayList<Staff> staff_members = new ArrayList<>();
-    private boolean is_store_open;
     private final ArrayList<Item> sold_items_ = new ArrayList<>();
-    private int money_earned_;
     private final Map<Integer, ArrayList<Item>> inventory = new HashMap<>();
     private final ArrayList<Item> items_waiting = new ArrayList<>();
-    private final ArrayList<Customer> customers = new ArrayList<>();
+    private final int num_days_;
     private final Random r;
-    // Not sure if needed
-    Store() {
+    private final ArrayList<String> id_to_name;
+    Store(int num_days) {
         //need to initialize the simulation here, we want to run num_days iterations
         //when we first initialize the simulation we know
         //add Shaggy and Velma to the staff Array list
+        num_days_ = num_days;
         money_withdrawn_ = 0;
         r = new Random();
-        //need to add customers to come into the store here
-        //there should be 1 to 4 selling and 4 to 10 buying
+        id_to_name = new ArrayList<>();
+        //initialize the names of all of the items
+        id_to_name.add("MP3");
+        id_to_name.add("CD_P");
+        id_to_name.add("Record Player");
+        id_to_name.add("Mandolin");
+        id_to_name.add("Guitar");
+        id_to_name.add("Bass");
+        id_to_name.add("Harmonica");
+        id_to_name.add("Flute");
+        id_to_name.add("CD_M");
+        id_to_name.add("Vinyl");
+        id_to_name.add("Paper Score");
+        id_to_name.add("Hat");
+        id_to_name.add("Shirt");
+        id_to_name.add("Bandana");
+        id_to_name.add("String");
+        id_to_name.add("Cable");
+        id_to_name.add("Practice Amp");
 
         //need to now add items to the store initially
         for (int i = 0; i < 3; i++){
@@ -765,6 +751,7 @@ class Store {
             Item practice_amp = new PracticeAmps("Practice Amp " + i, r.nextInt(50) + 1, r.nextInt(2), 0, r.nextInt(5) + 1, 50);
             Item cable = new Cables("Cable " + i, r.nextInt(50) + 1, r.nextInt(2), 0, r.nextInt(5) + 1, 2);
             Item string = new Strings("Harmonica " + i, r.nextInt(50) + 1, r.nextInt(2), 0, r.nextInt(5) + 1, "Copper");
+            //add each item to the map and add a new array list in the corresponding key if an arraylist does not already exist for this type of item
             inventory.computeIfAbsent(0, k -> new ArrayList<>()).add(mp3);
             inventory.computeIfAbsent(1, k -> new ArrayList<>()).add(cd_p);
             inventory.computeIfAbsent(2, k -> new ArrayList<>()).add(record_player);
@@ -783,21 +770,21 @@ class Store {
             inventory.computeIfAbsent(15, k -> new ArrayList<>()).add(cable);
             inventory.computeIfAbsent(16, k -> new ArrayList<>()).add(practice_amp);
         }
-        //probably add a new function here
-        //now iterate through the days
-         //this variable is responsible for keeping track of how many weeks we are open for,
-        //assume each week begins on monday, so the 7th day we will always be closed
     }
 
     ArrayList<Customer> GenerateDailyCustomers(int curr_day){
         //need to add daily customers
         ArrayList<Customer> daily_customers = new ArrayList<>();
+        //random number between 4 and 10 for the buying customers for the day
         int num_buying_customers = r.nextInt(7) + 4;
+        //random number between 1 and 4 for the selling customers of the day
         int num_selling_customers = r.nextInt(4) + 1;
+        //add the buying customers to the daily customers list
         for(int i = 0; i < num_buying_customers; i++){
             Customer new_customer = new Customer(true, curr_day);
             daily_customers.add(new_customer);
         }
+        //add the selling customers to the daily customers list
         for(int i = 0; i < num_selling_customers; i++){
             Customer new_customer = new Customer(false, curr_day);
             daily_customers.add(new_customer);
@@ -805,70 +792,50 @@ class Store {
         return daily_customers;
     }
 
-    void RunSimulation(int num_days){
+    void RunSimulation(){
         Clerk daily_clerk;
         int weekly_day_count = 0;
         Clerk velma = new Clerk("Velma", "clerk", 5);
         Clerk shaggy = new Clerk("Shaggy", "clerk", 20);
         staff_members.add(velma);
         staff_members.add(shaggy);
-        for(int i = 0; i < num_days; i++){
+        //iterate through the number of days the simulation is supposed to run
+        for(int i = 0; i < num_days_; i++){
             //each step in here represents one day
+            //this means it is sunday and we close the store for the day
             if(weekly_day_count == 6){
-                is_store_open = false;
                 System.out.println("Today is Sunday, we are closed! Sorry for the inconvenience. Best, FNMS simulation.");
                 weekly_day_count = 0;
                 continue;
             }
-            is_store_open = true;
-            //we need to first assign an employee to this day
-            //pick a random staff
-            //okay so now we can assign an employee to this day
-            //pick a random number between 0 and the size of the staff
             weekly_day_count++;
-            int rand_staff_index = r.nextInt(2);
-            if(rand_staff_index == 1){
-                //then we have velma
-                if(velma.getConsecutive_work_days_() <= 3){
-                    daily_clerk = velma;
-                    shaggy.setConsecutive_work_days_(0);
-                    velma.setConsecutive_work_days_(velma.getConsecutive_work_days_() + 1);
-                }
-                else{
-                    daily_clerk = shaggy;
-                    velma.setConsecutive_work_days_(0);
-                    shaggy.setConsecutive_work_days_(shaggy.getConsecutive_work_days_() + 1);
-                }
+            //assign an employee to this day
+            //pick a random number between 0 and 1 to determine if shaggy or velma works that day
+            int temp = 0;
+
+            if (r.nextInt(2) == 1) {
+                daily_clerk = velma;
             }
             else {
-                //then we have shaggy work
-                if(shaggy.getConsecutive_work_days_() <= 3){
-                    daily_clerk = shaggy;
-                    velma.setConsecutive_work_days_(0);
-                    shaggy.setConsecutive_work_days_(shaggy.getConsecutive_work_days_() + 1);
-                }
-                else{
-                    daily_clerk = velma;
-                    shaggy.setConsecutive_work_days_(0);
-                    velma.setConsecutive_work_days_(velma.getConsecutive_work_days_() + 1);
-                }
+                daily_clerk = shaggy;
+                temp = 1;
             }
 
-            //now that we have our clerk for the day we can start writing out the tasks the clerks should complete
-            daily_clerk.ArriveAtStore(i);
-            //have the daily clerk go through the items waiting and see if they need to be added to the inventory/if they have arrived
-            for(int j = 0; j < items_waiting.size(); j++){
-                //first get the day the item is supposed to arrive and compare it to today
-                Item current_item_waiting = items_waiting.get(j);
-                if(current_item_waiting.getDayArrived_() == i){
-                    //then we add it to the map corresponding to the item type id
-                    inventory.get(current_item_waiting.getItem_type_id()).add(current_item_waiting);
-                    //then remove it from the items waiting ArrayList
-                    items_waiting.remove(current_item_waiting);
-                    //log the item that was added to the inventory
-                    System.out.println(daily_clerk.getName_() + " added the waiting item " + current_item_waiting.getName_() + " to the inventory.");
-                }
+            if(daily_clerk.getConsecutive_work_days_() == 3 && temp == 0){
+                daily_clerk.setConsecutive_work_days_(0);
+                daily_clerk = shaggy;
             }
+
+            if(daily_clerk.getConsecutive_work_days_() == 3 && temp == 1){
+                daily_clerk.setConsecutive_work_days_(0);
+                daily_clerk = velma;
+            }
+            daily_clerk.setConsecutive_work_days_(daily_clerk.getConsecutive_work_days_() + 1);
+
+
+            //now that we have our clerk for the day we can start writing out the tasks the clerks should complete
+            daily_clerk.ArriveAtStore(i, items_waiting, inventory);
+
             //get the money in the register
             double money_in_register = daily_clerk.CheckRegister();
             //if the money in the register is less than 75 we need to have the clerk go to the bank
@@ -884,7 +851,7 @@ class Store {
             //There will be 4 to 10 buying Customers and 1 to 4 selling Customers each day.
             ArrayList<Customer> daily_customers = GenerateDailyCustomers(i);
             //the clerk will now deal with each customer that arrives at the store
-            sold_items_.addAll(daily_clerk.OpenTheStore(daily_customers, inventory, i));
+            sold_items_.addAll(daily_clerk.OpenTheStore(daily_customers, inventory, i, id_to_name));
 
             //then clerk cleans the store
             daily_clerk.CleanTheStore(inventory);
@@ -900,8 +867,10 @@ class Store {
         System.out.println("The simulation has concluded, below is a summary of the final state of the store.");
         System.out.println("::::::::::Final Inventory::::::::::");
         double total_purchase_price = 0;
+        //go through every sublass
         for (Map.Entry<Integer, ArrayList<Item>> entry : inventory.entrySet()) {
             System.out.println();
+            //then loop through the items in that specific subclass
             for(Item item: entry.getValue()) {
                 System.out.print(item.getName_() + "   ");
                 total_purchase_price += item.getPurchasePrice_();
@@ -912,6 +881,7 @@ class Store {
         System.out.println("::::::::::Sold Items::::::::::");
         //print the items sold, including the day sold and the sale price
         double money_from_sales = 0;
+        //loops through all of the sold items and print the results
         for(Item item: sold_items_){
             System.out.println(item.getName_() + "  Day Sold: " + item.getDaySold_() + "  Sale Price: $" + item.getSalePrice_());
             money_from_sales += item.getSalePrice_();
@@ -934,8 +904,8 @@ class Store {
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        Store store = new Store();
-        store.RunSimulation(2);
+        //initialize a new store to run for a certain number of days
+        Store store = new Store(30);
+        store.RunSimulation();
     }
 }
