@@ -13,6 +13,7 @@ class Players extends Item {
 }
 
 // Subclass of Players
+//this is an example of inheritance (MP3 inheriting from Players)
 class MP3 extends Players {
     public static int count = 0; //statics variable to count how many MP3 players there are
     MP3(String name, double purchasePrice, int newOrUsed, int dayArrived, int condition) {
@@ -310,6 +311,7 @@ class Customer {
         return customer_id_;
     }
 
+    //using an id number for each customer is an example of identity
     private final int customer_id_;
 
     public boolean isSelling_or_buying_() {
@@ -384,7 +386,7 @@ class Staff {
 
 // Subclass of Staff
 class Clerk extends Staff {
-
+    //clerk demonstrates high cohesion because all of these functions within clerk are specific jobs that only the clerk performs
     private final int break_prob_;
     Clerk(String name, String type, int break_prob) {
         super(name, type);
@@ -697,8 +699,10 @@ class Clerk extends Staff {
 }
 
 class Store {
+    //all of the private variables below are examples of encapsulation
     private double money_withdrawn_;
     private final ArrayList<Staff> staff_members = new ArrayList<>();
+    //this array list is an example of polymorphism as we are holding many different items that are children of the same superclass but different from one another
     private final ArrayList<Item> sold_items_ = new ArrayList<>();
     private final Map<Integer, ArrayList<Item>> inventory = new HashMap<>();
     private final ArrayList<Item> items_waiting = new ArrayList<>();

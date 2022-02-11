@@ -1,6 +1,7 @@
 package com.company;
 
 //super class
+//This class is abstract because it is the parent class and has base functionality for all of the subclasses below it
 public class Item {
 
     //super class constructor
