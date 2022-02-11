@@ -1,0 +1,1333 @@
+Shaggy arrives at the store on Day 0.
+Shaggy is checking for ordered items...
+Shaggy checked the cash register. The amount of cash in the register is 0.0.
+Shaggy went to the bank and withdrew 1000$, the new balance in the register is 1000.0.
+Shaggy checked the inventory.
+Shaggy has opened the store on day 0!
+Shaggy is helping customer 5.
+Customer 5 is looking to buy a CD_M.
+Shaggy and  Customer 5 could not make a deal,  Customer 5 left the store.
+Shaggy is helping customer 8.
+Shaggy bought a used Cable 3 in excellent condition from Customer 8 for $45.0.
+Shaggy is helping customer 0.
+Customer 0 is looking to buy a Hat.
+Shaggy and  Customer 0 could not make a deal,  Customer 0 left the store.
+Shaggy is helping customer 7.
+Shaggy bought a used Harmonica 3 in very good condition from Customer 7 for $39.0.
+Shaggy is helping customer 3.
+Customer 3 is looking to buy a Flute.
+Shaggy sold Flute 1 at a list price of $98.0 to Customer 3.
+Shaggy is helping customer 1.
+Customer 1 is looking to buy a Practice Amp.
+Shaggy and  Customer 1 could not make a deal,  Customer 1 left the store.
+Shaggy is helping customer 4.
+Customer 4 is looking to buy a Harmonica.
+Shaggy sold Harmonica 0 at a list price of $86.0 to Customer 4.
+Shaggy is helping customer 6.
+Customer 6 is looking to buy a Harmonica.
+Shaggy sold Harmonica 1 at a list price of $50.0 to Customer 6.
+Shaggy is helping customer 2.
+Customer 2 is looking to buy a Bass.
+Shaggy sold Bass 2 at a list price of $94.0 to Customer 2.
+Shaggy is cleaning the store.
+Shaggy broke a very good condition item Record Player 2 listed at a price of $32.0. The new condition is good and the new list price is $25.6.
+Shaggy locked up the store and went home for day 0.
+Velma arrives at the store on Day 1.
+Velma is checking for ordered items...
+Velma checked the cash register. The amount of cash in the register is 1244.0.
+Velma checked the inventory.
+Velma has opened the store on day 1!
+Velma is helping customer 9.
+Customer 9 is looking to buy a Hat.
+Velma sold Hat 2 at a list price of $72.0 to Customer 9.
+Velma is helping customer 14.
+Customer 14 is looking to buy a Guitar.
+Velma sold Guitar 0 at a list price of $30.0 to Customer 14.
+Velma is helping customer 13.
+Customer 13 is looking to buy a Flute.
+Velma sold Flute 0 for $36.0 to Customer 13 for a 10% discount.
+Velma is helping customer 16.
+Customer 16 is looking to buy a CD_M.
+Velma sold CD 0 at a list price of $58.0 to Customer 16.
+Velma is helping customer 17.
+Customer 17 is looking to buy a Bandana.
+Velma and  Customer 17 could not make a deal,  Customer 17 left the store.
+Velma is helping customer 11.
+Customer 11 is looking to buy a Flute.
+Velma sold Flute 2 for $39.6 to Customer 11 for a 10% discount.
+Velma is helping customer 21.
+Velma and  Customer 21 could not make a deal,  Customer 21 left the store.
+Velma is helping customer 12.
+Customer 12 is looking to buy a Flute.
+There were no Flute available in the store, Customer 12 left the store.
+Velma is helping customer 18.
+Customer 18 is looking to buy a MP3.
+Velma and  Customer 18 could not make a deal,  Customer 18 left the store.
+Velma is helping customer 10.
+Customer 10 is looking to buy a Harmonica.
+Velma sold Harmonica 2 for $50.4 to Customer 10 for a 10% discount.
+Velma is helping customer 19.
+Velma bought a new CD Player 3 in fair condition from Customer 19 for $16.0.
+Velma is helping customer 22.
+Velma bought a new Vinyl 3 in excellent condition from Customer 22 for $45.1 for a 10% increase from the initial offer.
+Velma is helping customer 20.
+Velma bought a new Mandolin 3 in good condition from Customer 20 for $27.5 for a 10% increase from the initial offer.
+Velma is helping customer 15.
+Customer 15 is looking to buy a Bandana.
+Velma sold Bandana 2 for $84.6 to Customer 15 for a 10% discount.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 1.
+Shaggy arrives at the store on Day 2.
+Shaggy is checking for ordered items...
+Shaggy checked the cash register. The amount of cash in the register is 1526.0.
+Shaggy checked the inventory.
+Shaggy found 0 items for item type id 6
+Shaggy found 0 items for item type id 7
+Shaggy placed an order for the following items: Harmonica 3, Harmonica 4, Harmonica 5.
+Shaggy placed an order for the following items: Flute 3, Flute 4, Flute 5.
+Shaggy has opened the store on day 2!
+Shaggy is helping customer 30.
+Customer 30 is looking to buy a String.
+Shaggy sold Harmonica 1 at a list price of $32.0 to Customer 30.
+Shaggy is helping customer 25.
+Customer 25 is looking to buy a Paper Score.
+Shaggy sold Paper Score 2 for $16.2 to Customer 25 for a 10% discount.
+Shaggy is helping customer 28.
+Customer 28 is looking to buy a String.
+Shaggy sold Harmonica 2 for $36.0 to Customer 28 for a 10% discount.
+Shaggy is helping customer 23.
+Customer 23 is looking to buy a Flute.
+There were no Flute available in the store, Customer 23 left the store.
+Shaggy is helping customer 27.
+Customer 27 is looking to buy a String.
+Shaggy sold Harmonica 3 for $70.2 to Customer 27 for a 10% discount.
+Shaggy is helping customer 33.
+Shaggy bought a new Practice Amp 3 in very good condition from Customer 33 for $40.7 for a 10% increase from the initial offer.
+Shaggy is helping customer 24.
+Customer 24 is looking to buy a Guitar.
+Shaggy and  Customer 24 could not make a deal,  Customer 24 left the store.
+Shaggy is helping customer 26.
+Customer 26 is looking to buy a Mandolin.
+Shaggy sold Mandolin 1 at a list price of $52.0 to Customer 26.
+Shaggy is helping customer 34.
+Shaggy bought a new CD 3 in fair condition from Customer 34 for $17.0.
+Shaggy is helping customer 32.
+Customer 32 is looking to buy a Paper Score.
+Shaggy sold Paper Score 1 at a list price of $8.0 to Customer 32.
+Shaggy is helping customer 31.
+Customer 31 is looking to buy a MP3.
+Shaggy and  Customer 31 could not make a deal,  Customer 31 left the store.
+Shaggy is helping customer 29.
+Customer 29 is looking to buy a Bandana.
+Shaggy sold Bandana 0 at a list price of $12.0 to Customer 29.
+Shaggy is cleaning the store.
+Shaggy broke a good condition item Guitar 1 listed at a price of $12.0. The new condition is fair and the new list price is $9.6.
+Shaggy locked up the store and went home for day 2.
+Velma arrives at the store on Day 3.
+Velma is checking for ordered items...
+Velma added the waiting item Harmonica 3 to the inventory.
+Velma added the waiting item Harmonica 5 to the inventory.
+Velma checked the cash register. The amount of cash in the register is 1553.7.
+Velma checked the inventory.
+Velma found 0 items for item type id 7
+Velma placed an order for the following items: Flute 6, Flute 7, Flute 8.
+Velma has opened the store on day 3!
+Velma is helping customer 36.
+Customer 36 is looking to buy a CD_M.
+Velma sold CD 2 at a list price of $18.0 to Customer 36.
+Velma is helping customer 37.
+Customer 37 is looking to buy a Guitar.
+Velma sold Guitar 2 for $34.2 to Customer 37 for a 10% discount.
+Velma is helping customer 38.
+Customer 38 is looking to buy a Practice Amp.
+Velma sold Practice Amp 0 at a list price of $94.0 to Customer 38.
+Velma is helping customer 35.
+Customer 35 is looking to buy a MP3.
+Velma sold MP3 1 at a list price of $96.0 to Customer 35.
+Velma is helping customer 39.
+Velma bought a used Cable 5 in very good condition from Customer 39 for $32.0.
+Velma is helping customer 41.
+Velma bought a new Mandolin 4 in excellent condition from Customer 41 for $40.0.
+Velma is helping customer 40.
+Velma bought a used Record Player 3 in very good condition from Customer 40 for $36.3 for a 10% increase from the initial offer.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 3.
+Shaggy arrives at the store on Day 4.
+Shaggy is checking for ordered items...
+Shaggy added the waiting item Flute 3 to the inventory.
+Shaggy added the waiting item Flute 5 to the inventory.
+Shaggy added the waiting item Flute 7 to the inventory.
+Shaggy checked the cash register. The amount of cash in the register is 1605.6000000000001.
+Shaggy checked the inventory.
+Shaggy has opened the store on day 4!
+Shaggy is helping customer 44.
+Customer 44 is looking to buy a String.
+Shaggy sold Harmonica 0 at a list price of $2.0 to Customer 44.
+Shaggy is helping customer 48.
+Shaggy bought a new Record Player 4 in fair condition from Customer 48 for $12.1 for a 10% increase from the initial offer.
+Shaggy is helping customer 49.
+Shaggy bought a new Vinyl 4 in good condition from Customer 49 for $25.0.
+Shaggy is helping customer 43.
+Customer 43 is looking to buy a Harmonica.
+Shaggy sold Harmonica 5 at a list price of $76.0 to Customer 43.
+Shaggy is helping customer 50.
+Shaggy bought a new CD 4 in good condition from Customer 50 for $26.0.
+Shaggy is helping customer 45.
+Customer 45 is looking to buy a Paper Score.
+Shaggy sold Paper Score 0 at a list price of $46.0 to Customer 45.
+Shaggy is helping customer 46.
+Customer 46 is looking to buy a CD_P.
+Shaggy sold CD Player 2 at a list price of $74.0 to Customer 46.
+Shaggy is helping customer 47.
+Shaggy bought a new Shirt 3 in fair condition from Customer 47 for $17.0.
+Shaggy is helping customer 42.
+Customer 42 is looking to buy a Flute.
+Shaggy sold Flute 7 at a list price of $78.0 to Customer 42.
+Shaggy is cleaning the store.
+Shaggy locked up the store and went home for day 4.
+Velma arrives at the store on Day 5.
+Velma is checking for ordered items...
+Velma checked the cash register. The amount of cash in the register is 1801.5000000000002.
+Velma checked the inventory.
+Velma found 0 items for item type id 10
+Velma found 0 items for item type id 14
+Velma placed an order for the following items: Paper Score 3, Paper Score 4, Paper Score 5.
+Velma placed an order for the following items: Harmonica 4, Harmonica 5, Harmonica 6.
+Velma has opened the store on day 5!
+Velma is helping customer 56.
+Customer 56 is looking to buy a Guitar.
+Velma sold Guitar 1 for $8.64 to Customer 56 for a 10% discount.
+Velma is helping customer 63.
+Velma bought a new Cable 6 in good condition from Customer 63 for $22.0.
+Velma is helping customer 57.
+Customer 57 is looking to buy a Shirt.
+Velma sold Shirt 1 at a list price of $14.0 to Customer 57.
+Velma is helping customer 52.
+Customer 52 is looking to buy a Bass.
+Velma sold Bass 0 at a list price of $82.0 to Customer 52.
+Velma is helping customer 53.
+Customer 53 is looking to buy a Bandana.
+Velma sold Bandana 1 at a list price of $84.0 to Customer 53.
+Velma is helping customer 51.
+Customer 51 is looking to buy a Vinyl.
+Velma sold Vinyl 4 at a list price of $50.0 to Customer 51.
+Velma is helping customer 60.
+Customer 60 is looking to buy a Mandolin.
+Velma sold Mandolin 3 for $49.5 to Customer 60 for a 10% discount.
+Velma is helping customer 62.
+Velma bought a new Flute 9 in fair condition from Customer 62 for $16.5 for a 10% increase from the initial offer.
+Velma is helping customer 59.
+Customer 59 is looking to buy a Cable.
+Velma sold Cable 1 at a list price of $16.0 to Customer 59.
+Velma is helping customer 58.
+Customer 58 is looking to buy a Vinyl.
+Velma and  Customer 58 could not make a deal,  Customer 58 left the store.
+Velma is helping customer 61.
+Velma bought a used Hat 3 in fair condition from Customer 61 for $11.0.
+Velma is helping customer 54.
+Customer 54 is looking to buy a Record Player.
+Velma sold Record Player 3 for $65.33999999999999 to Customer 54 for a 10% discount.
+Velma is helping customer 55.
+Customer 55 is looking to buy a Practice Amp.
+Velma sold Practice Amp 3 for $73.26 to Customer 55 for a 10% discount.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 5.
+Today is Sunday, we are closed! Sorry for the inconvenience. Best, FNMS simulation.
+Velma arrives at the store on Day 7.
+Velma is checking for ordered items...
+Velma added the waiting item Paper Score 3 to the inventory.
+Velma added the waiting item Paper Score 5 to the inventory.
+Velma checked the cash register. The amount of cash in the register is 2031.7400000000002.
+Velma checked the inventory.
+Velma found 0 items for item type id 4
+Velma found 0 items for item type id 13
+Velma found 0 items for item type id 14
+Velma placed an order for the following items: Guitar 3, Guitar 4, Guitar 5.
+Velma placed an order for the following items: Bandana 3, Bandana 4, Bandana 5.
+Velma placed an order for the following items: Harmonica 7, Harmonica 8, Harmonica 9.
+Velma has opened the store on day 7!
+Velma is helping customer 69.
+Customer 69 is looking to buy a MP3.
+Velma sold MP3 0 for $66.6 to Customer 69 for a 10% discount.
+Velma is helping customer 72.
+Velma bought a new Shirt 4 in good condition from Customer 72 for $26.4 for a 10% increase from the initial offer.
+Velma is helping customer 64.
+Customer 64 is looking to buy a Guitar.
+There were no Guitar available in the store, Customer 64 left the store.
+Velma is helping customer 67.
+Customer 67 is looking to buy a CD_P.
+Velma sold CD Player 1 at a list price of $40.0 to Customer 67.
+Velma is helping customer 70.
+Customer 70 is looking to buy a Cable.
+Velma sold Cable 0 at a list price of $12.0 to Customer 70.
+Velma is helping customer 73.
+Velma bought a new Vinyl 5 in very good condition from Customer 73 for $33.0 for a 10% increase from the initial offer.
+Velma is helping customer 66.
+Customer 66 is looking to buy a CD_M.
+Velma sold CD 3 at a list price of $34.0 to Customer 66.
+Velma is helping customer 65.
+Customer 65 is looking to buy a Harmonica.
+Velma sold Harmonica 3 at a list price of $30.0 to Customer 65.
+Velma is helping customer 71.
+Customer 71 is looking to buy a Cable.
+Velma sold Cable 2 at a list price of $16.0 to Customer 71.
+Velma is helping customer 68.
+Customer 68 is looking to buy a Paper Score.
+Velma sold Paper Score 5 for $23.4 to Customer 68 for a 10% discount.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 7.
+Shaggy arrives at the store on Day 8.
+Shaggy is checking for ordered items...
+Shaggy added the waiting item Harmonica 4 to the inventory.
+Shaggy added the waiting item Harmonica 6 to the inventory.
+Shaggy added the waiting item Guitar 4 to the inventory.
+Shaggy added the waiting item Harmonica 7 to the inventory.
+Shaggy added the waiting item Harmonica 9 to the inventory.
+Shaggy checked the cash register. The amount of cash in the register is 1975.3400000000001.
+Shaggy checked the inventory.
+Shaggy found 0 items for item type id 6
+Shaggy found 0 items for item type id 13
+Shaggy placed an order for the following items: Harmonica 6, Harmonica 7, Harmonica 8.
+Shaggy placed an order for the following items: Bandana 6, Bandana 7, Bandana 8.
+Shaggy has opened the store on day 8!
+Shaggy is helping customer 80.
+Customer 80 is looking to buy a Vinyl.
+Shaggy sold Vinyl 3 for $81.18 to Customer 80 for a 10% discount.
+Shaggy is helping customer 81.
+Customer 81 is looking to buy a Guitar.
+Shaggy sold Guitar 4 for $34.2 to Customer 81 for a 10% discount.
+Shaggy is helping customer 83.
+Shaggy and  Customer 83 could not make a deal,  Customer 83 left the store.
+Shaggy is helping customer 76.
+Customer 76 is looking to buy a CD_P.
+Shaggy sold CD Player 3 at a list price of $32.0 to Customer 76.
+Shaggy is helping customer 82.
+Customer 82 is looking to buy a Hat.
+Shaggy sold Hat 3 at a list price of $22.0 to Customer 82.
+Shaggy is helping customer 77.
+Customer 77 is looking to buy a Harmonica.
+There were no Harmonica available in the store, Customer 77 left the store.
+Shaggy is helping customer 75.
+Customer 75 is looking to buy a MP3.
+Shaggy sold MP3 2 at a list price of $62.0 to Customer 75.
+Shaggy is helping customer 85.
+Shaggy bought a used Paper Score 6 in very good condition from Customer 85 for $30.0.
+Shaggy is helping customer 78.
+Customer 78 is looking to buy a Cable.
+Shaggy sold Cable 3 at a list price of $90.0 to Customer 78.
+Shaggy is helping customer 74.
+Customer 74 is looking to buy a Mandolin.
+Shaggy and  Customer 74 could not make a deal,  Customer 74 left the store.
+Shaggy is helping customer 79.
+Customer 79 is looking to buy a CD_P.
+Shaggy sold CD Player 0 at a list price of $52.0 to Customer 79.
+Shaggy is helping customer 84.
+Shaggy and  Customer 84 could not make a deal,  Customer 84 left the store.
+Shaggy is cleaning the store.
+Shaggy locked up the store and went home for day 8.
+Shaggy arrives at the store on Day 9.
+Shaggy is checking for ordered items...
+Shaggy added the waiting item Bandana 3 to the inventory.
+Shaggy added the waiting item Bandana 5 to the inventory.
+Shaggy added the waiting item Harmonica 6 to the inventory.
+Shaggy added the waiting item Harmonica 8 to the inventory.
+Shaggy added the waiting item Bandana 7 to the inventory.
+Shaggy checked the cash register. The amount of cash in the register is 2154.7200000000003.
+Shaggy checked the inventory.
+Shaggy found 0 items for item type id 0
+Shaggy found 0 items for item type id 1
+Shaggy found 0 items for item type id 4
+Shaggy placed an order for the following items: MP3 3, MP3 4, MP3 5.
+Shaggy placed an order for the following items: CD Player 4, CD Player 5, CD Player 6.
+Shaggy placed an order for the following items: Guitar 6, Guitar 7, Guitar 8.
+Shaggy has opened the store on day 9!
+Shaggy is helping customer 89.
+Customer 89 is looking to buy a CD_P.
+There were no CD_P available in the store, Customer 89 left the store.
+Shaggy is helping customer 87.
+Customer 87 is looking to buy a Hat.
+Shaggy sold Hat 1 at a list price of $20.0 to Customer 87.
+Shaggy is helping customer 90.
+Customer 90 is looking to buy a String.
+Shaggy sold Harmonica 7 at a list price of $18.0 to Customer 90.
+Shaggy is helping customer 92.
+Customer 92 is looking to buy a Harmonica.
+Shaggy sold Harmonica 8 at a list price of $34.0 to Customer 92.
+Shaggy is helping customer 98.
+Shaggy bought a used Record Player 5 in excellent condition from Customer 98 for $48.0.
+Shaggy is helping customer 99.
+Shaggy and  Customer 99 could not make a deal,  Customer 99 left the store.
+Shaggy is helping customer 95.
+Customer 95 is looking to buy a Paper Score.
+Shaggy sold Paper Score 6 for $54.0 to Customer 95 for a 10% discount.
+Shaggy is helping customer 96.
+Shaggy bought a new Hat 4 in excellent condition from Customer 96 for $45.1 for a 10% increase from the initial offer.
+Shaggy is helping customer 88.
+Customer 88 is looking to buy a Harmonica.
+Shaggy sold Harmonica 6 at a list price of $36.0 to Customer 88.
+Shaggy is helping customer 97.
+Shaggy bought a new Paper Score 7 in very good condition from Customer 97 for $41.8 for a 10% increase from the initial offer.
+Shaggy is helping customer 91.
+Customer 91 is looking to buy a Vinyl.
+Shaggy sold Vinyl 0 at a list price of $6.0 to Customer 91.
+Shaggy is helping customer 94.
+Customer 94 is looking to buy a Bandana.
+Shaggy sold Bandana 7 at a list price of $28.0 to Customer 94.
+Shaggy is helping customer 86.
+Customer 86 is looking to buy a Bass.
+Shaggy sold Bass 1 at a list price of $98.0 to Customer 86.
+Shaggy is helping customer 93.
+Customer 93 is looking to buy a Hat.
+Shaggy and  Customer 93 could not make a deal,  Customer 93 left the store.
+Shaggy is cleaning the store.
+Shaggy locked up the store and went home for day 9.
+Shaggy arrives at the store on Day 10.
+Shaggy is checking for ordered items...
+Shaggy checked the cash register. The amount of cash in the register is 2051.8200000000006.
+Shaggy checked the inventory.
+Shaggy found 0 items for item type id 0
+Shaggy found 0 items for item type id 1
+Shaggy found 0 items for item type id 4
+Shaggy found 0 items for item type id 5
+Shaggy found 0 items for item type id 6
+Shaggy placed an order for the following items: MP3 6, MP3 7, MP3 8.
+Shaggy placed an order for the following items: CD Player 7, CD Player 8, CD Player 9.
+Shaggy placed an order for the following items: Guitar 9, Guitar 10, Guitar 11.
+Shaggy placed an order for the following items: Bass 3, Bass 4, Bass 5.
+Shaggy placed an order for the following items: Harmonica 10, Harmonica 11, Harmonica 12.
+Shaggy has opened the store on day 10!
+Shaggy is helping customer 100.
+Customer 100 is looking to buy a Practice Amp.
+Shaggy sold Practice Amp 2 at a list price of $68.0 to Customer 100.
+Shaggy is helping customer 103.
+Customer 103 is looking to buy a String.
+Shaggy and  Customer 103 could not make a deal,  Customer 103 left the store.
+Shaggy is helping customer 104.
+Shaggy and  Customer 104 could not make a deal,  Customer 104 left the store.
+Shaggy is helping customer 101.
+Customer 101 is looking to buy a Guitar.
+There were no Guitar available in the store, Customer 101 left the store.
+Shaggy is helping customer 102.
+Customer 102 is looking to buy a Bass.
+There were no Bass available in the store, Customer 102 left the store.
+Shaggy is cleaning the store.
+Shaggy locked up the store and went home for day 10.
+Velma arrives at the store on Day 11.
+Velma is checking for ordered items...
+Velma added the waiting item Guitar 6 to the inventory.
+Velma added the waiting item Guitar 8 to the inventory.
+Velma added the waiting item MP3 7 to the inventory.
+Velma checked the cash register. The amount of cash in the register is 1719.8200000000006.
+Velma checked the inventory.
+Velma found 0 items for item type id 1
+Velma found 0 items for item type id 5
+Velma found 0 items for item type id 6
+Velma placed an order for the following items: CD Player 10, CD Player 11, CD Player 12.
+Velma placed an order for the following items: Bass 6, Bass 7, Bass 8.
+Velma placed an order for the following items: Harmonica 13, Harmonica 14, Harmonica 15.
+Velma has opened the store on day 11!
+Velma is helping customer 108.
+Customer 108 is looking to buy a Shirt.
+Velma sold Shirt 0 for $34.2 to Customer 108 for a 10% discount.
+Velma is helping customer 109.
+Customer 109 is looking to buy a String.
+Velma sold Harmonica 9 at a list price of $58.0 to Customer 109.
+Velma is helping customer 107.
+Customer 107 is looking to buy a Mandolin.
+Velma sold Mandolin 4 for $72.0 to Customer 107 for a 10% discount.
+Velma is helping customer 112.
+Customer 112 is looking to buy a Vinyl.
+Velma sold Vinyl 5 at a list price of $66.0 to Customer 112.
+Velma is helping customer 110.
+Customer 110 is looking to buy a Harmonica.
+There were no Harmonica available in the store, Customer 110 left the store.
+Velma is helping customer 106.
+Customer 106 is looking to buy a Cable.
+Velma and  Customer 106 could not make a deal,  Customer 106 left the store.
+Velma is helping customer 105.
+Customer 105 is looking to buy a Shirt.
+Velma and  Customer 105 could not make a deal,  Customer 105 left the store.
+Velma is helping customer 114.
+Velma bought a new Cable 7 in very good condition from Customer 114 for $32.0.
+Velma is helping customer 111.
+Customer 111 is looking to buy a Practice Amp.
+Velma sold Practice Amp 1 at a list price of $38.0 to Customer 111.
+Velma is helping customer 113.
+Velma and  Customer 113 could not make a deal,  Customer 113 left the store.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 11.
+Velma arrives at the store on Day 12.
+Velma is checking for ordered items...
+Velma added the waiting item MP3 3 to the inventory.
+Velma added the waiting item MP3 5 to the inventory.
+Velma added the waiting item CD Player 5 to the inventory.
+Velma added the waiting item CD Player 7 to the inventory.
+Velma added the waiting item CD Player 9 to the inventory.
+Velma added the waiting item Harmonica 10 to the inventory.
+Velma added the waiting item Harmonica 12 to the inventory.
+Velma checked the cash register. The amount of cash in the register is 1744.0200000000007.
+Velma checked the inventory.
+Velma found 0 items for item type id 5
+Velma found 0 items for item type id 16
+Velma placed an order for the following items: Bass 9, Bass 10, Bass 11.
+Velma placed an order for the following items: Practice Amp 4, Practice Amp 5, Practice Amp 6.
+Velma has opened the store on day 12!
+Velma is helping customer 121.
+Customer 121 is looking to buy a Hat.
+Velma and  Customer 121 could not make a deal,  Customer 121 left the store.
+Velma is helping customer 124.
+Velma bought a used Practice Amp 7 in good condition from Customer 124 for $23.0.
+Velma is helping customer 120.
+Customer 120 is looking to buy a Guitar.
+Velma sold Guitar 6 for $34.2 to Customer 120 for a 10% discount.
+Velma is helping customer 118.
+Customer 118 is looking to buy a Flute.
+Velma sold Flute 9 at a list price of $33.0 to Customer 118.
+Velma is helping customer 116.
+Customer 116 is looking to buy a CD_M.
+Velma and  Customer 116 could not make a deal,  Customer 116 left the store.
+Velma is helping customer 125.
+Velma bought a new Flute 10 in poor condition from Customer 125 for $10.0.
+Velma is helping customer 127.
+Velma bought a new Paper Score 8 in very good condition from Customer 127 for $35.0.
+Velma is helping customer 115.
+Customer 115 is looking to buy a String.
+Velma sold Harmonica 4 for $77.4 to Customer 115 for a 10% discount.
+Velma is helping customer 126.
+Velma bought a new Shirt 6 in fair condition from Customer 126 for $15.4 for a 10% increase from the initial offer.
+Velma is helping customer 117.
+Customer 117 is looking to buy a Bandana.
+Velma sold Bandana 5 for $52.2 to Customer 117 for a 10% discount.
+Velma is helping customer 122.
+Customer 122 is looking to buy a Cable.
+Velma sold Cable 6 at a list price of $44.0 to Customer 122.
+Velma is helping customer 123.
+Customer 123 is looking to buy a CD_P.
+Velma sold CD Player 7 at a list price of $16.0 to Customer 123.
+Velma is helping customer 119.
+Customer 119 is looking to buy a CD_P.
+Velma sold CD Player 5 at a list price of $46.0 to Customer 119.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 12.
+Today is Sunday, we are closed! Sorry for the inconvenience. Best, FNMS simulation.
+Shaggy arrives at the store on Day 14.
+Shaggy is checking for ordered items...
+Shaggy added the waiting item CD Player 10 to the inventory.
+Shaggy added the waiting item CD Player 12 to the inventory.
+Shaggy added the waiting item Bass 7 to the inventory.
+Shaggy checked the cash register. The amount of cash in the register is 1849.4200000000008.
+Shaggy checked the inventory.
+Shaggy has opened the store on day 14!
+Shaggy is helping customer 132.
+Customer 132 is looking to buy a Hat.
+Shaggy sold Hat 4 for $81.18 to Customer 132 for a 10% discount.
+Shaggy is helping customer 130.
+Customer 130 is looking to buy a CD_M.
+Shaggy sold CD 4 at a list price of $52.0 to Customer 130.
+Shaggy is helping customer 134.
+Customer 134 is looking to buy a Flute.
+Shaggy sold Flute 3 at a list price of $68.0 to Customer 134.
+Shaggy is helping customer 137.
+Shaggy bought a new Bass 12 in good condition from Customer 137 for $24.2 for a 10% increase from the initial offer.
+Shaggy is helping customer 136.
+Customer 136 is looking to buy a CD_M.
+Shaggy sold CD 1 for $52.2 to Customer 136 for a 10% discount.
+Shaggy is helping customer 133.
+Customer 133 is looking to buy a String.
+Shaggy sold Harmonica 6 at a list price of $42.0 to Customer 133.
+Shaggy is helping customer 138.
+Shaggy bought a used Guitar 12 in excellent condition from Customer 138 for $48.0.
+Shaggy is helping customer 128.
+Customer 128 is looking to buy a Hat.
+Shaggy and  Customer 128 could not make a deal,  Customer 128 left the store.
+Shaggy is helping customer 135.
+Customer 135 is looking to buy a CD_M.
+There were no CD_M available in the store, Customer 135 left the store.
+Shaggy is helping customer 131.
+Customer 131 is looking to buy a Flute.
+Shaggy sold Flute 10 at a list price of $20.0 to Customer 131.
+Shaggy is helping customer 129.
+Customer 129 is looking to buy a Hat.
+Shaggy sold Hat 0 at a list price of $28.0 to Customer 129.
+Shaggy is cleaning the store.
+Shaggy locked up the store and went home for day 14.
+Shaggy arrives at the store on Day 15.
+Shaggy is checking for ordered items...
+Shaggy added the waiting item Bass 9 to the inventory.
+Shaggy added the waiting item Bass 11 to the inventory.
+Shaggy checked the cash register. The amount of cash in the register is 2120.600000000001.
+Shaggy checked the inventory.
+Shaggy found 0 items for item type id 8
+Shaggy found 0 items for item type id 11
+Shaggy found 0 items for item type id 14
+Shaggy placed an order for the following items: CD 5, CD 6, CD 7.
+Shaggy placed an order for the following items: Hat 5, Hat 6, Hat 7.
+Shaggy placed an order for the following items: Harmonica 10, Harmonica 11, Harmonica 12.
+Shaggy has opened the store on day 15!
+Shaggy is helping customer 146.
+Customer 146 is looking to buy a Cable.
+Shaggy sold Cable 5 at a list price of $64.0 to Customer 146.
+Shaggy is helping customer 141.
+Customer 141 is looking to buy a Harmonica.
+Shaggy sold Harmonica 12 at a list price of $58.0 to Customer 141.
+Shaggy is helping customer 145.
+Customer 145 is looking to buy a CD_M.
+There were no CD_M available in the store, Customer 145 left the store.
+Shaggy is helping customer 149.
+Shaggy and  Customer 149 could not make a deal,  Customer 149 left the store.
+Shaggy is helping customer 150.
+Shaggy bought a used Vinyl 6 in fair condition from Customer 150 for $11.0.
+Shaggy is helping customer 144.
+Customer 144 is looking to buy a MP3.
+Shaggy and  Customer 144 could not make a deal,  Customer 144 left the store.
+Shaggy is helping customer 139.
+Customer 139 is looking to buy a Bandana.
+Shaggy sold Bandana 3 at a list price of $52.0 to Customer 139.
+Shaggy is helping customer 143.
+Customer 143 is looking to buy a Bandana.
+There were no Bandana available in the store, Customer 143 left the store.
+Shaggy is helping customer 142.
+Customer 142 is looking to buy a Flute.
+Shaggy sold Flute 5 for $21.6 to Customer 142 for a 10% discount.
+Shaggy is helping customer 148.
+Shaggy bought a new Guitar 13 in good condition from Customer 148 for $24.0.
+Shaggy is helping customer 147.
+Customer 147 is looking to buy a Shirt.
+Shaggy and  Customer 147 could not make a deal,  Customer 147 left the store.
+Shaggy is helping customer 140.
+Customer 140 is looking to buy a Shirt.
+Shaggy sold Shirt 6 for $27.72 to Customer 140 for a 10% discount.
+Shaggy is cleaning the store.
+Shaggy broke a fair condition item Vinyl 1 listed at a price of $100.0. The new condition is poor and the new list price is $80.0.
+Shaggy locked up the store and went home for day 15.
+Shaggy arrives at the store on Day 16.
+Shaggy is checking for ordered items...
+Shaggy added the waiting item CD 5 to the inventory.
+Shaggy added the waiting item CD 7 to the inventory.
+Shaggy checked the cash register. The amount of cash in the register is 2051.9200000000005.
+Shaggy checked the inventory.
+Shaggy found 0 items for item type id 7
+Shaggy found 0 items for item type id 11
+Shaggy found 0 items for item type id 13
+Shaggy found 0 items for item type id 14
+Shaggy placed an order for the following items: Flute 11, Flute 12, Flute 13.
+Shaggy placed an order for the following items: Hat 8, Hat 9, Hat 10.
+Shaggy placed an order for the following items: Bandana 10, Bandana 11, Bandana 12.
+Shaggy placed an order for the following items: Harmonica 13, Harmonica 14, Harmonica 15.
+Shaggy has opened the store on day 16!
+Shaggy is helping customer 157.
+Customer 157 is looking to buy a Record Player.
+Shaggy and  Customer 157 could not make a deal,  Customer 157 left the store.
+Shaggy is helping customer 153.
+Customer 153 is looking to buy a Flute.
+There were no Flute available in the store, Customer 153 left the store.
+Shaggy is helping customer 155.
+Customer 155 is looking to buy a Harmonica.
+Shaggy and  Customer 155 could not make a deal,  Customer 155 left the store.
+Shaggy is helping customer 154.
+Customer 154 is looking to buy a Hat.
+There were no Hat available in the store, Customer 154 left the store.
+Shaggy is helping customer 160.
+Shaggy bought a new Guitar 14 in poor condition from Customer 160 for $3.3 for a 10% increase from the initial offer.
+Shaggy is helping customer 158.
+Customer 158 is looking to buy a Vinyl.
+Shaggy sold Vinyl 1 at a list price of $80.0 to Customer 158.
+Shaggy is helping customer 159.
+Shaggy and  Customer 159 could not make a deal,  Customer 159 left the store.
+Shaggy is helping customer 151.
+Customer 151 is looking to buy a Harmonica.
+Shaggy sold Harmonica 10 for $16.2 to Customer 151 for a 10% discount.
+Shaggy is helping customer 156.
+Customer 156 is looking to buy a Flute.
+There were no Flute available in the store, Customer 156 left the store.
+Shaggy is helping customer 152.
+Customer 152 is looking to buy a Flute.
+There were no Flute available in the store, Customer 152 left the store.
+Shaggy is cleaning the store.
+Shaggy locked up the store and went home for day 16.
+Velma arrives at the store on Day 17.
+Velma is checking for ordered items...
+Velma added the waiting item Hat 5 to the inventory.
+Velma added the waiting item Hat 7 to the inventory.
+Velma added the waiting item Harmonica 11 to the inventory.
+Velma added the waiting item Bandana 10 to the inventory.
+Velma added the waiting item Bandana 12 to the inventory.
+Velma added the waiting item Harmonica 14 to the inventory.
+Velma checked the cash register. The amount of cash in the register is 1803.8200000000006.
+Velma checked the inventory.
+Velma found 0 items for item type id 6
+Velma found 0 items for item type id 7
+Velma placed an order for the following items: Harmonica 16, Harmonica 17, Harmonica 18.
+Velma placed an order for the following items: Flute 14, Flute 15, Flute 16.
+Velma has opened the store on day 17!
+Velma is helping customer 167.
+Customer 167 is looking to buy a Mandolin.
+Velma sold Mandolin 2 for $37.8 to Customer 167 for a 10% discount.
+Velma is helping customer 163.
+Customer 163 is looking to buy a Harmonica.
+There were no Harmonica available in the store, Customer 163 left the store.
+Velma is helping customer 170.
+Customer 170 is looking to buy a Paper Score.
+Velma sold Paper Score 8 at a list price of $70.0 to Customer 170.
+Velma is helping customer 162.
+Customer 162 is looking to buy a CD_M.
+Velma sold CD 7 at a list price of $86.0 to Customer 162.
+Velma is helping customer 161.
+Customer 161 is looking to buy a MP3.
+Velma sold MP3 5 at a list price of $58.0 to Customer 161.
+Velma is helping customer 164.
+Customer 164 is looking to buy a Cable.
+Velma sold Cable 7 at a list price of $64.0 to Customer 164.
+Velma is helping customer 166.
+Customer 166 is looking to buy a Bandana.
+Velma sold Bandana 10 at a list price of $40.0 to Customer 166.
+Velma is helping customer 172.
+Velma and  Customer 172 could not make a deal,  Customer 172 left the store.
+Velma is helping customer 165.
+Customer 165 is looking to buy a Mandolin.
+Velma sold Mandolin 0 at a list price of $94.0 to Customer 165.
+Velma is helping customer 171.
+Velma bought a used Guitar 15 in good condition from Customer 171 for $22.0 for a 10% increase from the initial offer.
+Velma is helping customer 168.
+Customer 168 is looking to buy a Bass.
+Velma sold Bass 9 at a list price of $68.0 to Customer 168.
+Velma is helping customer 169.
+Customer 169 is looking to buy a Flute.
+There were no Flute available in the store, Customer 169 left the store.
+Velma is helping customer 173.
+Velma bought a new Hat 11 in fair condition from Customer 173 for $11.0.
+Velma is helping customer 174.
+Velma bought a used Flute 17 in poor condition from Customer 174 for $9.0.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 17.
+Velma arrives at the store on Day 18.
+Velma is checking for ordered items...
+Velma added the waiting item Hat 8 to the inventory.
+Velma added the waiting item Hat 10 to the inventory.
+Velma added the waiting item Flute 14 to the inventory.
+Velma added the waiting item Flute 16 to the inventory.
+Velma checked the cash register. The amount of cash in the register is 2134.620000000001.
+Velma checked the inventory.
+Velma found 0 items for item type id 3
+Velma found 0 items for item type id 6
+Velma found 0 items for item type id 15
+Velma placed an order for the following items: Mandolin 6, Mandolin 7, Mandolin 8.
+Velma placed an order for the following items: Harmonica 19, Harmonica 20, Harmonica 21.
+Velma placed an order for the following items: Cable 8, Cable 9, Cable 10.
+Velma has opened the store on day 18!
+Velma is helping customer 181.
+Customer 181 is looking to buy a Mandolin.
+There were no Mandolin available in the store, Customer 181 left the store.
+Velma is helping customer 182.
+Velma bought a used Hat 12 in fair condition from Customer 182 for $11.0 for a 10% increase from the initial offer.
+Velma is helping customer 178.
+Customer 178 is looking to buy a CD_P.
+Velma sold CD Player 10 at a list price of $44.0 to Customer 178.
+Velma is helping customer 183.
+Velma bought a used Shirt 7 in excellent condition from Customer 183 for $42.0.
+Velma is helping customer 179.
+Customer 179 is looking to buy a Bandana.
+Velma sold Bandana 12 at a list price of $80.0 to Customer 179.
+Velma is helping customer 177.
+Customer 177 is looking to buy a Guitar.
+Velma sold Guitar 14 for $5.9399999999999995 to Customer 177 for a 10% discount.
+Velma is helping customer 175.
+Customer 175 is looking to buy a Hat.
+Velma sold Hat 10 for $59.4 to Customer 175 for a 10% discount.
+Velma is helping customer 180.
+Customer 180 is looking to buy a Harmonica.
+There were no Harmonica available in the store, Customer 180 left the store.
+Velma is helping customer 176.
+Customer 176 is looking to buy a MP3.
+Velma and  Customer 176 could not make a deal,  Customer 176 left the store.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 18.
+Shaggy arrives at the store on Day 19.
+Shaggy is checking for ordered items...
+Shaggy added the waiting item Flute 11 to the inventory.
+Shaggy added the waiting item Flute 13 to the inventory.
+Shaggy added the waiting item Harmonica 19 to the inventory.
+Shaggy added the waiting item Harmonica 21 to the inventory.
+Shaggy checked the cash register. The amount of cash in the register is 2054.960000000001.
+Shaggy checked the inventory.
+Shaggy found 0 items for item type id 3
+Shaggy found 0 items for item type id 13
+Shaggy found 0 items for item type id 15
+Shaggy placed an order for the following items: Mandolin 9, Mandolin 10, Mandolin 11.
+Shaggy placed an order for the following items: Bandana 13, Bandana 14, Bandana 15.
+Shaggy placed an order for the following items: Cable 11, Cable 12, Cable 13.
+Shaggy has opened the store on day 19!
+Shaggy is helping customer 191.
+Customer 191 is looking to buy a Vinyl.
+Shaggy sold Vinyl 6 for $19.8 to Customer 191 for a 10% discount.
+Shaggy is helping customer 192.
+Shaggy bought a used Bandana 16 in poor condition from Customer 192 for $3.0.
+Shaggy is helping customer 189.
+Customer 189 is looking to buy a Vinyl.
+Shaggy sold Vinyl 2 at a list price of $52.0 to Customer 189.
+Shaggy is helping customer 185.
+Customer 185 is looking to buy a Bandana.
+Shaggy sold Bandana 16 at a list price of $6.0 to Customer 185.
+Shaggy is helping customer 184.
+Customer 184 is looking to buy a Mandolin.
+There were no Mandolin available in the store, Customer 184 left the store.
+Shaggy is helping customer 187.
+Customer 187 is looking to buy a CD_P.
+Shaggy sold CD Player 9 for $34.2 to Customer 187 for a 10% discount.
+Shaggy is helping customer 186.
+Customer 186 is looking to buy a Practice Amp.
+Shaggy sold Practice Amp 7 for $41.4 to Customer 186 for a 10% discount.
+Shaggy is helping customer 188.
+Customer 188 is looking to buy a Bass.
+Shaggy sold Bass 7 for $1.8 to Customer 188 for a 10% discount.
+Shaggy is helping customer 190.
+Customer 190 is looking to buy a Guitar.
+Shaggy sold Guitar 15 at a list price of $44.0 to Customer 190.
+Shaggy is cleaning the store.
+Shaggy locked up the store and went home for day 19.
+Today is Sunday, we are closed! Sorry for the inconvenience. Best, FNMS simulation.
+Velma arrives at the store on Day 21.
+Velma is checking for ordered items...
+Velma added the waiting item Mandolin 6 to the inventory.
+Velma added the waiting item Mandolin 8 to the inventory.
+Velma added the waiting item Cable 8 to the inventory.
+Velma added the waiting item Cable 10 to the inventory.
+Velma added the waiting item Mandolin 10 to the inventory.
+Velma checked the cash register. The amount of cash in the register is 2050.1600000000008.
+Velma checked the inventory.
+Velma found 0 items for item type id 9
+Velma found 0 items for item type id 13
+Velma found 0 items for item type id 16
+Velma placed an order for the following items: Vinyl 7, Vinyl 8, Vinyl 9.
+Velma placed an order for the following items: Bandana 17, Bandana 18, Bandana 19.
+Velma placed an order for the following items: Practice Amp 9, Practice Amp 10, Practice Amp 11.
+Velma has opened the store on day 21!
+Velma is helping customer 196.
+Customer 196 is looking to buy a Shirt.
+Velma sold Shirt 2 at a list price of $12.0 to Customer 196.
+Velma is helping customer 198.
+Velma bought a used Vinyl 10 in excellent condition from Customer 198 for $51.7 for a 10% increase from the initial offer.
+Velma is helping customer 197.
+Velma and  Customer 197 could not make a deal,  Customer 197 left the store.
+Velma is helping customer 193.
+Customer 193 is looking to buy a String.
+Velma sold Harmonica 14 at a list price of $18.0 to Customer 193.
+Velma is helping customer 195.
+Customer 195 is looking to buy a Cable.
+Velma sold Cable 10 at a list price of $40.0 to Customer 195.
+Velma is helping customer 199.
+Velma bought a new Harmonica 23 in good condition from Customer 199 for $26.0.
+Velma is helping customer 194.
+Customer 194 is looking to buy a Cable.
+Velma sold Cable 8 at a list price of $60.0 to Customer 194.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 21.
+Velma arrives at the store on Day 22.
+Velma is checking for ordered items...
+Velma added the waiting item Cable 11 to the inventory.
+Velma added the waiting item Cable 13 to the inventory.
+Velma checked the cash register. The amount of cash in the register is 1774.4600000000007.
+Velma checked the inventory.
+Velma found 0 items for item type id 13
+Velma found 0 items for item type id 16
+Velma placed an order for the following items: Bandana 20, Bandana 21, Bandana 22.
+Velma placed an order for the following items: Practice Amp 12, Practice Amp 13, Practice Amp 14.
+Velma has opened the store on day 22!
+Velma is helping customer 211.
+Velma bought a used Harmonica 24 in poor condition from Customer 211 for $8.8 for a 10% increase from the initial offer.
+Velma is helping customer 204.
+Customer 204 is looking to buy a Hat.
+Velma sold Hat 8 at a list price of $78.0 to Customer 204.
+Velma is helping customer 208.
+Velma and  Customer 208 could not make a deal,  Customer 208 left the store.
+Velma is helping customer 202.
+Customer 202 is looking to buy a Mandolin.
+Velma sold Mandolin 10 at a list price of $10.0 to Customer 202.
+Velma is helping customer 206.
+Customer 206 is looking to buy a Paper Score.
+Velma sold Paper Score 3 for $68.4 to Customer 206 for a 10% discount.
+Velma is helping customer 209.
+Velma bought a new Mandolin 13 in excellent condition from Customer 209 for $44.0.
+Velma is helping customer 200.
+Customer 200 is looking to buy a Cable.
+Velma sold Cable 11 at a list price of $18.0 to Customer 200.
+Velma is helping customer 207.
+Customer 207 is looking to buy a Hat.
+Velma sold Hat 12 for $19.8 to Customer 207 for a 10% discount.
+Velma is helping customer 210.
+Velma bought a used Record Player 7 in poor condition from Customer 210 for $7.7 for a 10% increase from the initial offer.
+Velma is helping customer 205.
+Customer 205 is looking to buy a Record Player.
+Velma sold Record Player 1 at a list price of $70.0 to Customer 205.
+Velma is helping customer 203.
+Customer 203 is looking to buy a Vinyl.
+Velma sold Vinyl 10 for $93.06 to Customer 203 for a 10% discount.
+Velma is helping customer 201.
+Customer 201 is looking to buy a Vinyl.
+There were no Vinyl available in the store, Customer 201 left the store.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 22.
+Shaggy arrives at the store on Day 23.
+Shaggy is checking for ordered items...
+Shaggy added the waiting item Bandana 17 to the inventory.
+Shaggy added the waiting item Bandana 19 to the inventory.
+Shaggy added the waiting item Practice Amp 10 to the inventory.
+Shaggy checked the cash register. The amount of cash in the register is 1894.2200000000007.
+Shaggy checked the inventory.
+Shaggy found 0 items for item type id 9
+Shaggy placed an order for the following items: Vinyl 11, Vinyl 12, Vinyl 13.
+Shaggy has opened the store on day 23!
+Shaggy is helping customer 220.
+Customer 220 is looking to buy a Mandolin.
+Shaggy sold Mandolin 8 for $57.6 to Customer 220 for a 10% discount.
+Shaggy is helping customer 218.
+Customer 218 is looking to buy a Bass.
+Shaggy sold Bass 12 at a list price of $48.4 to Customer 218.
+Shaggy is helping customer 222.
+Shaggy bought a used CD 8 in very good condition from Customer 222 for $40.7 for a 10% increase from the initial offer.
+Shaggy is helping customer 225.
+Shaggy bought a used CD 9 in good condition from Customer 225 for $30.8 for a 10% increase from the initial offer.
+Shaggy is helping customer 216.
+Customer 216 is looking to buy a Flute.
+Shaggy sold Flute 17 at a list price of $18.0 to Customer 216.
+Shaggy is helping customer 219.
+Customer 219 is looking to buy a CD_P.
+Shaggy sold CD Player 12 for $41.4 to Customer 219 for a 10% discount.
+Shaggy is helping customer 214.
+Customer 214 is looking to buy a Flute.
+Shaggy sold Flute 13 for $63.0 to Customer 214 for a 10% discount.
+Shaggy is helping customer 217.
+Customer 217 is looking to buy a Cable.
+Shaggy sold Cable 13 for $36.0 to Customer 217 for a 10% discount.
+Shaggy is helping customer 215.
+Customer 215 is looking to buy a Cable.
+There were no Cable available in the store, Customer 215 left the store.
+Shaggy is helping customer 213.
+Customer 213 is looking to buy a MP3.
+Shaggy sold MP3 7 at a list price of $88.0 to Customer 213.
+Shaggy is helping customer 221.
+Customer 221 is looking to buy a Cable.
+There were no Cable available in the store, Customer 221 left the store.
+Shaggy is helping customer 223.
+Shaggy bought a new CD Player 13 in excellent condition from Customer 223 for $43.0.
+Shaggy is helping customer 224.
+Shaggy bought a new CD 10 in poor condition from Customer 224 for $5.0.
+Shaggy is helping customer 212.
+Customer 212 is looking to buy a String.
+Shaggy sold Harmonica 11 at a list price of $26.0 to Customer 212.
+Shaggy is cleaning the store.
+Shaggy locked up the store and went home for day 23.
+Shaggy arrives at the store on Day 24.
+Shaggy is checking for ordered items...
+Shaggy added the waiting item Vinyl 7 to the inventory.
+Shaggy added the waiting item Vinyl 9 to the inventory.
+Shaggy added the waiting item Bandana 20 to the inventory.
+Shaggy added the waiting item Bandana 22 to the inventory.
+Shaggy added the waiting item Vinyl 11 to the inventory.
+Shaggy added the waiting item Vinyl 13 to the inventory.
+Shaggy checked the cash register. The amount of cash in the register is 2035.1200000000008.
+Shaggy checked the inventory.
+Shaggy found 0 items for item type id 14
+Shaggy found 0 items for item type id 15
+Shaggy placed an order for the following items: Harmonica 17, Harmonica 18, Harmonica 19.
+Shaggy placed an order for the following items: Cable 14, Cable 15, Cable 16.
+Shaggy has opened the store on day 24!
+Shaggy is helping customer 233.
+Shaggy bought a new Harmonica 25 in very good condition from Customer 233 for $31.0.
+Shaggy is helping customer 226.
+Customer 226 is looking to buy a MP3.
+Shaggy sold MP3 3 at a list price of $76.0 to Customer 226.
+Shaggy is helping customer 230.
+Customer 230 is looking to buy a Record Player.
+Shaggy sold Record Player 0 at a list price of $92.0 to Customer 230.
+Shaggy is helping customer 232.
+Customer 232 is looking to buy a Mandolin.
+Shaggy and  Customer 232 could not make a deal,  Customer 232 left the store.
+Shaggy is helping customer 227.
+Customer 227 is looking to buy a Mandolin.
+Shaggy sold Mandolin 13 for $79.2 to Customer 227 for a 10% discount.
+Shaggy is helping customer 231.
+Customer 231 is looking to buy a Cable.
+There were no Cable available in the store, Customer 231 left the store.
+Shaggy is helping customer 228.
+Customer 228 is looking to buy a Record Player.
+Shaggy sold Record Player 4 at a list price of $24.2 to Customer 228.
+Shaggy is helping customer 229.
+Customer 229 is looking to buy a Guitar.
+Shaggy sold Guitar 12 for $86.4 to Customer 229 for a 10% discount.
+Shaggy is helping customer 234.
+Shaggy bought a used Flute 18 in excellent condition from Customer 234 for $48.4 for a 10% increase from the initial offer.
+Shaggy is cleaning the store.
+Shaggy locked up the store and went home for day 24.
+Velma arrives at the store on Day 25.
+Velma is checking for ordered items...
+Velma added the waiting item Practice Amp 12 to the inventory.
+Velma added the waiting item Practice Amp 14 to the inventory.
+Velma added the waiting item Harmonica 17 to the inventory.
+Velma added the waiting item Harmonica 19 to the inventory.
+Velma checked the cash register. The amount of cash in the register is 2065.520000000001.
+Velma checked the inventory.
+Velma found 0 items for item type id 0
+Velma found 0 items for item type id 15
+Velma placed an order for the following items: MP3 10, MP3 11, MP3 12.
+Velma placed an order for the following items: Cable 17, Cable 18, Cable 19.
+Velma has opened the store on day 25!
+Velma is helping customer 245.
+Velma bought a used Guitar 16 in very good condition from Customer 245 for $32.0.
+Velma is helping customer 240.
+Customer 240 is looking to buy a Mandolin.
+Velma sold Mandolin 6 for $23.4 to Customer 240 for a 10% discount.
+Velma is helping customer 243.
+Customer 243 is looking to buy a Paper Score.
+Velma sold Paper Score 7 at a list price of $83.6 to Customer 243.
+Velma is helping customer 248.
+Velma bought a new CD 11 in excellent condition from Customer 248 for $40.0.
+Velma is helping customer 246.
+Velma bought a used Bass 13 in good condition from Customer 246 for $26.0.
+Velma is helping customer 238.
+Customer 238 is looking to buy a CD_P.
+Velma and  Customer 238 could not make a deal,  Customer 238 left the store.
+Velma is helping customer 242.
+Customer 242 is looking to buy a Practice Amp.
+Velma and  Customer 242 could not make a deal,  Customer 242 left the store.
+Velma is helping customer 235.
+Customer 235 is looking to buy a Cable.
+There were no Cable available in the store, Customer 235 left the store.
+Velma is helping customer 236.
+Customer 236 is looking to buy a Cable.
+There were no Cable available in the store, Customer 236 left the store.
+Velma is helping customer 244.
+Customer 244 is looking to buy a Flute.
+Velma sold Flute 16 at a list price of $2.0 to Customer 244.
+Velma is helping customer 241.
+Customer 241 is looking to buy a Vinyl.
+Velma sold Vinyl 11 at a list price of $78.0 to Customer 241.
+Velma is helping customer 237.
+Customer 237 is looking to buy a Practice Amp.
+Velma sold Practice Amp 12 for $73.8 to Customer 237 for a 10% discount.
+Velma is helping customer 239.
+Customer 239 is looking to buy a Harmonica.
+Velma sold Harmonica 19 at a list price of $68.0 to Customer 239.
+Velma is helping customer 247.
+Velma bought a used CD Player 14 in fair condition from Customer 247 for $15.0.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 25.
+Velma arrives at the store on Day 26.
+Velma is checking for ordered items...
+Velma added the waiting item Cable 17 to the inventory.
+Velma added the waiting item Cable 19 to the inventory.
+Velma checked the cash register. The amount of cash in the register is 2116.320000000001.
+Velma checked the inventory.
+Velma found 0 items for item type id 0
+Velma found 0 items for item type id 3
+Velma found 0 items for item type id 10
+Velma placed an order for the following items: MP3 13, MP3 14, MP3 15.
+Velma placed an order for the following items: Mandolin 14, Mandolin 15, Mandolin 16.
+Velma placed an order for the following items: Paper Score 9, Paper Score 10, Paper Score 11.
+Velma has opened the store on day 26!
+Velma is helping customer 253.
+Customer 253 is looking to buy a Hat.
+Velma sold Hat 11 for $19.8 to Customer 253 for a 10% discount.
+Velma is helping customer 251.
+Customer 251 is looking to buy a Mandolin.
+There were no Mandolin available in the store, Customer 251 left the store.
+Velma is helping customer 255.
+Velma bought a used Shirt 8 in good condition from Customer 255 for $28.0.
+Velma is helping customer 252.
+Customer 252 is looking to buy a Bass.
+Velma sold Bass 13 for $46.8 to Customer 252 for a 10% discount.
+Velma is helping customer 250.
+Customer 250 is looking to buy a Shirt.
+Velma sold Shirt 7 for $75.6 to Customer 250 for a 10% discount.
+Velma is helping customer 254.
+Velma bought a new Hat 13 in very good condition from Customer 254 for $31.0.
+Velma is helping customer 249.
+Customer 249 is looking to buy a CD_P.
+Velma sold CD Player 13 at a list price of $86.0 to Customer 249.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 26.
+Today is Sunday, we are closed! Sorry for the inconvenience. Best, FNMS simulation.
+Velma arrives at the store on Day 28.
+Velma is checking for ordered items...
+Velma added the waiting item MP3 10 to the inventory.
+Velma added the waiting item MP3 12 to the inventory.
+Velma checked the cash register. The amount of cash in the register is 2040.520000000001.
+Velma checked the inventory.
+Velma found 0 items for item type id 3
+Velma found 0 items for item type id 10
+Velma placed an order for the following items: Mandolin 17, Mandolin 18, Mandolin 19.
+Velma placed an order for the following items: Paper Score 12, Paper Score 13, Paper Score 14.
+Velma has opened the store on day 28!
+Velma is helping customer 260.
+Customer 260 is looking to buy a Guitar.
+Velma sold Guitar 8 at a list price of $96.0 to Customer 260.
+Velma is helping customer 266.
+Velma bought a new Harmonica 20 in fair condition from Customer 266 for $11.0.
+Velma is helping customer 262.
+Customer 262 is looking to buy a CD_M.
+Velma sold CD 8 for $73.26 to Customer 262 for a 10% discount.
+Velma is helping customer 267.
+Velma bought a used Guitar 17 in poor condition from Customer 267 for $5.5 for a 10% increase from the initial offer.
+Velma is helping customer 265.
+Velma bought a new Guitar 18 in good condition from Customer 265 for $20.0.
+Velma is helping customer 264.
+Customer 264 is looking to buy a Guitar.
+Velma sold Guitar 13 at a list price of $48.0 to Customer 264.
+Velma is helping customer 268.
+Velma bought a used Bass 14 in good condition from Customer 268 for $26.0.
+Velma is helping customer 257.
+Customer 257 is looking to buy a Guitar.
+Velma sold Guitar 16 for $57.6 to Customer 257 for a 10% discount.
+Velma is helping customer 256.
+Customer 256 is looking to buy a Shirt.
+Velma sold Shirt 8 at a list price of $56.0 to Customer 256.
+Velma is helping customer 261.
+Customer 261 is looking to buy a Practice Amp.
+Velma sold Practice Amp 10 for $63.0 to Customer 261 for a 10% discount.
+Velma is helping customer 258.
+Customer 258 is looking to buy a CD_M.
+Velma sold CD 5 at a list price of $80.0 to Customer 258.
+Velma is helping customer 259.
+Customer 259 is looking to buy a CD_P.
+Velma sold CD Player 14 for $27.0 to Customer 259 for a 10% discount.
+Velma is helping customer 263.
+Customer 263 is looking to buy a MP3.
+Velma sold MP3 12 at a list price of $84.0 to Customer 263.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 28.
+Velma arrives at the store on Day 29.
+Velma is checking for ordered items...
+Velma added the waiting item Mandolin 17 to the inventory.
+Velma added the waiting item Mandolin 19 to the inventory.
+Velma added the waiting item Paper Score 13 to the inventory.
+Velma checked the cash register. The amount of cash in the register is 2430.880000000001.
+Velma checked the inventory.
+Velma found 0 items for item type id 1
+Velma placed an order for the following items: CD Player 15, CD Player 16, CD Player 17.
+Velma has opened the store on day 29!
+Velma is helping customer 270.
+Customer 270 is looking to buy a MP3.
+Velma sold MP3 10 for $50.4 to Customer 270 for a 10% discount.
+Velma is helping customer 273.
+Customer 273 is looking to buy a Hat.
+Velma sold Hat 7 at a list price of $92.0 to Customer 273.
+Velma is helping customer 272.
+Customer 272 is looking to buy a CD_M.
+Velma sold CD 11 at a list price of $80.0 to Customer 272.
+Velma is helping customer 278.
+Velma bought a new Paper Score 15 in fair condition from Customer 278 for $14.3 for a 10% increase from the initial offer.
+Velma is helping customer 276.
+Velma and  Customer 276 could not make a deal,  Customer 276 left the store.
+Velma is helping customer 275.
+Velma bought a new Shirt 9 in very good condition from Customer 275 for $36.3 for a 10% increase from the initial offer.
+Velma is helping customer 274.
+Customer 274 is looking to buy a String.
+Velma sold Harmonica 17 at a list price of $80.0 to Customer 274.
+Velma is helping customer 271.
+Customer 271 is looking to buy a Record Player.
+Velma sold Record Player 7 for $13.86 to Customer 271 for a 10% discount.
+Velma is helping customer 269.
+Customer 269 is looking to buy a Bandana.
+Velma sold Bandana 20 at a list price of $22.0 to Customer 269.
+Velma is helping customer 277.
+Velma bought a used Harmonica 26 in fair condition from Customer 277 for $12.0.
+Velma is cleaning the store.
+Velma locked up the store and went home for day 29.
+The simulation has concluded, below is a summary of the final state of the store.
+::::::::::Final Inventory::::::::::
+
+
+
+
+
+Record Player 2   Record Player 5   
+
+Mandolin 17   Mandolin 19   
+
+Guitar 17   Guitar 18   
+
+Bass 11   Bass 14   
+
+Harmonica 21   Harmonica 23   Harmonica 24   Harmonica 25   Harmonica 26   
+
+Flute 14   Flute 11   Flute 18   
+
+CD 9   CD 10   
+
+Vinyl 7   Vinyl 9   Vinyl 13   
+
+Paper Score 13   Paper Score 15   
+
+Hat 5   Hat 13   
+
+Shirt 3   Shirt 4   Shirt 9   
+
+Bandana 17   Bandana 19   Bandana 22   
+
+Harmonica 19   Harmonica 20   
+
+Cable 17   Cable 19   
+
+Practice Amp 14   
+Total Inventory Value: $897.4999999999999
+::::::::::Sold Items::::::::::
+Flute 1  Day Sold: 0  Sale Price: $98.0
+Harmonica 0  Day Sold: 0  Sale Price: $86.0
+Harmonica 1  Day Sold: 0  Sale Price: $50.0
+Bass 2  Day Sold: 0  Sale Price: $94.0
+Hat 2  Day Sold: 1  Sale Price: $72.0
+Guitar 0  Day Sold: 1  Sale Price: $30.0
+Flute 0  Day Sold: 1  Sale Price: $36.0
+CD 0  Day Sold: 1  Sale Price: $58.0
+Flute 2  Day Sold: 1  Sale Price: $39.6
+Harmonica 2  Day Sold: 1  Sale Price: $50.4
+Bandana 2  Day Sold: 1  Sale Price: $84.6
+Harmonica 1  Day Sold: 2  Sale Price: $32.0
+Paper Score 2  Day Sold: 2  Sale Price: $16.2
+Harmonica 2  Day Sold: 2  Sale Price: $36.0
+Harmonica 3  Day Sold: 2  Sale Price: $70.2
+Mandolin 1  Day Sold: 2  Sale Price: $52.0
+Paper Score 1  Day Sold: 2  Sale Price: $8.0
+Bandana 0  Day Sold: 2  Sale Price: $12.0
+CD 2  Day Sold: 3  Sale Price: $18.0
+Guitar 2  Day Sold: 3  Sale Price: $34.2
+Practice Amp 0  Day Sold: 3  Sale Price: $94.0
+MP3 1  Day Sold: 3  Sale Price: $96.0
+Harmonica 0  Day Sold: 4  Sale Price: $2.0
+Harmonica 5  Day Sold: 4  Sale Price: $76.0
+Paper Score 0  Day Sold: 4  Sale Price: $46.0
+CD Player 2  Day Sold: 4  Sale Price: $74.0
+Flute 7  Day Sold: 4  Sale Price: $78.0
+Guitar 1  Day Sold: 5  Sale Price: $8.64
+Shirt 1  Day Sold: 5  Sale Price: $14.0
+Bass 0  Day Sold: 5  Sale Price: $82.0
+Bandana 1  Day Sold: 5  Sale Price: $84.0
+Vinyl 4  Day Sold: 5  Sale Price: $50.0
+Mandolin 3  Day Sold: 5  Sale Price: $49.5
+Cable 1  Day Sold: 5  Sale Price: $16.0
+Record Player 3  Day Sold: 5  Sale Price: $65.33999999999999
+Practice Amp 3  Day Sold: 5  Sale Price: $73.26
+MP3 0  Day Sold: 7  Sale Price: $66.6
+CD Player 1  Day Sold: 7  Sale Price: $40.0
+Cable 0  Day Sold: 7  Sale Price: $12.0
+CD 3  Day Sold: 7  Sale Price: $34.0
+Harmonica 3  Day Sold: 7  Sale Price: $30.0
+Cable 2  Day Sold: 7  Sale Price: $16.0
+Paper Score 5  Day Sold: 7  Sale Price: $23.4
+Vinyl 3  Day Sold: 8  Sale Price: $81.18
+Guitar 4  Day Sold: 8  Sale Price: $34.2
+CD Player 3  Day Sold: 8  Sale Price: $32.0
+Hat 3  Day Sold: 8  Sale Price: $22.0
+MP3 2  Day Sold: 8  Sale Price: $62.0
+Cable 3  Day Sold: 8  Sale Price: $90.0
+CD Player 0  Day Sold: 8  Sale Price: $52.0
+Hat 1  Day Sold: 9  Sale Price: $20.0
+Harmonica 7  Day Sold: 9  Sale Price: $18.0
+Harmonica 8  Day Sold: 9  Sale Price: $34.0
+Paper Score 6  Day Sold: 9  Sale Price: $54.0
+Harmonica 6  Day Sold: 9  Sale Price: $36.0
+Vinyl 0  Day Sold: 9  Sale Price: $6.0
+Bandana 7  Day Sold: 9  Sale Price: $28.0
+Bass 1  Day Sold: 9  Sale Price: $98.0
+Practice Amp 2  Day Sold: 10  Sale Price: $68.0
+Shirt 0  Day Sold: 11  Sale Price: $34.2
+Harmonica 9  Day Sold: 11  Sale Price: $58.0
+Mandolin 4  Day Sold: 11  Sale Price: $72.0
+Vinyl 5  Day Sold: 11  Sale Price: $66.0
+Practice Amp 1  Day Sold: 11  Sale Price: $38.0
+Guitar 6  Day Sold: 12  Sale Price: $34.2
+Flute 9  Day Sold: 12  Sale Price: $33.0
+Harmonica 4  Day Sold: 12  Sale Price: $77.4
+Bandana 5  Day Sold: 12  Sale Price: $52.2
+Cable 6  Day Sold: 12  Sale Price: $44.0
+CD Player 7  Day Sold: 12  Sale Price: $16.0
+CD Player 5  Day Sold: 12  Sale Price: $46.0
+Hat 4  Day Sold: 14  Sale Price: $81.18
+CD 4  Day Sold: 14  Sale Price: $52.0
+Flute 3  Day Sold: 14  Sale Price: $68.0
+CD 1  Day Sold: 14  Sale Price: $52.2
+Harmonica 6  Day Sold: 14  Sale Price: $42.0
+Flute 10  Day Sold: 14  Sale Price: $20.0
+Hat 0  Day Sold: 14  Sale Price: $28.0
+Cable 5  Day Sold: 15  Sale Price: $64.0
+Harmonica 12  Day Sold: 15  Sale Price: $58.0
+Bandana 3  Day Sold: 15  Sale Price: $52.0
+Flute 5  Day Sold: 15  Sale Price: $21.6
+Shirt 6  Day Sold: 15  Sale Price: $27.72
+Vinyl 1  Day Sold: 16  Sale Price: $80.0
+Harmonica 10  Day Sold: 16  Sale Price: $16.2
+Mandolin 2  Day Sold: 17  Sale Price: $37.8
+Paper Score 8  Day Sold: 17  Sale Price: $70.0
+CD 7  Day Sold: 17  Sale Price: $86.0
+MP3 5  Day Sold: 17  Sale Price: $58.0
+Cable 7  Day Sold: 17  Sale Price: $64.0
+Bandana 10  Day Sold: 17  Sale Price: $40.0
+Mandolin 0  Day Sold: 17  Sale Price: $94.0
+Bass 9  Day Sold: 17  Sale Price: $68.0
+CD Player 10  Day Sold: 18  Sale Price: $44.0
+Bandana 12  Day Sold: 18  Sale Price: $80.0
+Guitar 14  Day Sold: 18  Sale Price: $5.9399999999999995
+Hat 10  Day Sold: 18  Sale Price: $59.4
+Vinyl 6  Day Sold: 19  Sale Price: $19.8
+Vinyl 2  Day Sold: 19  Sale Price: $52.0
+Bandana 16  Day Sold: 19  Sale Price: $6.0
+CD Player 9  Day Sold: 19  Sale Price: $34.2
+Practice Amp 7  Day Sold: 19  Sale Price: $41.4
+Bass 7  Day Sold: 19  Sale Price: $1.8
+Guitar 15  Day Sold: 19  Sale Price: $44.0
+Shirt 2  Day Sold: 21  Sale Price: $12.0
+Harmonica 14  Day Sold: 21  Sale Price: $18.0
+Cable 10  Day Sold: 21  Sale Price: $40.0
+Cable 8  Day Sold: 21  Sale Price: $60.0
+Hat 8  Day Sold: 22  Sale Price: $78.0
+Mandolin 10  Day Sold: 22  Sale Price: $10.0
+Paper Score 3  Day Sold: 22  Sale Price: $68.4
+Cable 11  Day Sold: 22  Sale Price: $18.0
+Hat 12  Day Sold: 22  Sale Price: $19.8
+Record Player 1  Day Sold: 22  Sale Price: $70.0
+Vinyl 10  Day Sold: 22  Sale Price: $93.06
+Mandolin 8  Day Sold: 23  Sale Price: $57.6
+Bass 12  Day Sold: 23  Sale Price: $48.4
+Flute 17  Day Sold: 23  Sale Price: $18.0
+CD Player 12  Day Sold: 23  Sale Price: $41.4
+Flute 13  Day Sold: 23  Sale Price: $63.0
+Cable 13  Day Sold: 23  Sale Price: $36.0
+MP3 7  Day Sold: 23  Sale Price: $88.0
+Harmonica 11  Day Sold: 23  Sale Price: $26.0
+MP3 3  Day Sold: 24  Sale Price: $76.0
+Record Player 0  Day Sold: 24  Sale Price: $92.0
+Mandolin 13  Day Sold: 24  Sale Price: $79.2
+Record Player 4  Day Sold: 24  Sale Price: $24.2
+Guitar 12  Day Sold: 24  Sale Price: $86.4
+Mandolin 6  Day Sold: 25  Sale Price: $23.4
+Paper Score 7  Day Sold: 25  Sale Price: $83.6
+Flute 16  Day Sold: 25  Sale Price: $2.0
+Vinyl 11  Day Sold: 25  Sale Price: $78.0
+Practice Amp 12  Day Sold: 25  Sale Price: $73.8
+Harmonica 19  Day Sold: 25  Sale Price: $68.0
+Hat 11  Day Sold: 26  Sale Price: $19.8
+Bass 13  Day Sold: 26  Sale Price: $46.8
+Shirt 7  Day Sold: 26  Sale Price: $75.6
+CD Player 13  Day Sold: 26  Sale Price: $86.0
+Guitar 8  Day Sold: 28  Sale Price: $96.0
+CD 8  Day Sold: 28  Sale Price: $73.26
+Guitar 13  Day Sold: 28  Sale Price: $48.0
+Guitar 16  Day Sold: 28  Sale Price: $57.6
+Shirt 8  Day Sold: 28  Sale Price: $56.0
+Practice Amp 10  Day Sold: 28  Sale Price: $63.0
+CD 5  Day Sold: 28  Sale Price: $80.0
+CD Player 14  Day Sold: 28  Sale Price: $27.0
+MP3 12  Day Sold: 28  Sale Price: $84.0
+MP3 10  Day Sold: 29  Sale Price: $50.4
+Hat 7  Day Sold: 29  Sale Price: $92.0
+CD 11  Day Sold: 29  Sale Price: $80.0
+Harmonica 17  Day Sold: 29  Sale Price: $80.0
+Record Player 7  Day Sold: 29  Sale Price: $13.86
+Bandana 20  Day Sold: 29  Sale Price: $22.0
+Total Money from Sales: $7687.139999999998
+::::::::::Money In Cash Register::::::::::
+Amount: $2614.540000000001
+::::::::::Money Withdrawn from Cash Register::::::::::
+Amount: $1000.0
+
+Process finished with exit code 0
