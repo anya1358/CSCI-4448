@@ -4,8 +4,8 @@ Andrew Yamane
 
 Grayson Arstingstall
 
-# Java Version Here
+# Java Version 8, OpenJDK 17
 
 # Comments About Implementation:
 
-- Comment Here
+- Run Main
